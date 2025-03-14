@@ -1,7 +1,7 @@
 run = "RAILS_ENV=development bundle exec rails server --binding=0.0.0.0"
 hidden = [".bundle"]
 entrypoint = "app/controllers/application_controller.rb"
-modules = ["ruby-3.2"]
+modules = ["bun-1.1", "ruby-3.2"]
 
 [env]
 RACK_MINI_PROFILER = "off"
